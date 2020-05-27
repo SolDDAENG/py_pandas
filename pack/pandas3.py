@@ -19,7 +19,7 @@ print()
 print(df.sum(axis=1))  # 행의 합
 print(df.mean(axis=1))  # 행의 평균
 print(df.sum(axis=1, skipna=True))  # skipna=True : NaN이 있어도 계산.
-print(df.sum(axis=1, skipna=False)) # skipna=False : NaN이 있는 행은 NaN으로 출력
+print(df.sum(axis=1, skipna=False))  # skipna=False : NaN이 있는 행은 NaN으로 출력
 
 print()
 print(df.max())
@@ -29,9 +29,9 @@ print(df.idxmax())  # index를 반환
 print(df.idxmin())
 
 print()
-print(df.describe())    # 요약 통계량
+print(df.describe())  # 요약 통계량
 print()
-print(df.info())    # 구조
+print(df.info())  # 구조
 print()
 words = Series(['봄', '여름'])
 print(words.describe())
