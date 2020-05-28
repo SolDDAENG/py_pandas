@@ -23,7 +23,7 @@ price = [10.3, 5.5, 7.8, 3.6, 5, 9]
 cut = [3, 7, 9, 11]  # 구간 기준값
 result_cut = pd.cut(price, cut)
 print(result_cut)  # (a, b] --> a < x <= b
-print(pd.value_counts(result_cut))  # 범주(범위)의 갯수
+print(pd.value_counts(result_cut))  # 범주(범위)의 개수
 
 print()
 datas = pd.Series(np.arange(1, 1001))
